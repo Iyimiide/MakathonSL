@@ -1,0 +1,21 @@
+{
+  "name": "makathon-sl-interpreter",
+  "version": "1.0.0",
+  "description": "An app that interprets Makathon sign language to English text.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iyimiide/MakathonSL.git"
+  },
+  "author": "Tim",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "opencv4nodejs": "^5.6.0"
+  }
+}
